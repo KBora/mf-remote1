@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'accountmaster', loadChildren: () => import('./account-master/account-master.module').then(m => m.AccountMasterModule) },
   { path: '', component: HomeComponent, pathMatch: 'full' }
 ];
 
