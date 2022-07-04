@@ -4,5 +4,16 @@
 </p>
 
 <p>
-  <button (click)="incrementCounter()">Increment counter from remote</button>
+  <button mat-raised-button color="accent" (click)="incrementCounter()">Increment counter from remote</button>
+</p>
+
+<button mat-flat-button>Material flat button</button>
+<button mat-flat-button color="primary">Material flat button</button>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Outline form field</mat-label>
+    <input matInput placeholder="Placeholder">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
 </p>
